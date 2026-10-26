@@ -179,6 +179,52 @@ section[data-role="notes"] p{
   }
 }
 </style>
+<style id="ron-grumpy-head-original-panel-width-v1">
+/* Grumpy Head Sketch: standard centered outer panel and stacked gray original-image cards. */
+main.wrap > section.section-card[data-role="original-drawing"],
+.wrap > section.section-card[data-role="original-drawing"] {
+  box-sizing:border-box!important;
+  width:100%!important;
+  max-width:960px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+  padding:22px!important;
+}
+section.section-card[data-role="original-drawing"] > .image-grid.original-grid {
+  display:flex!important;
+  flex-direction:column!important;
+  flex-wrap:nowrap!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:18px!important;
+}
+section.section-card[data-role="original-drawing"] > .image-grid.original-grid > a {
+  display:block!important;
+  box-sizing:border-box!important;
+  flex:0 0 auto!important;
+  width:100%!important;
+  max-width:900px!important;
+  margin:0 auto!important;
+  background:#fff!important;
+  border:1px solid #e5e7eb!important;
+  border-radius:16px!important;
+  overflow:hidden!important;
+}
+section.section-card[data-role="original-drawing"] > .image-grid.original-grid > a > img {
+  display:block!important;
+  width:100%!important;
+  max-width:none!important;
+  height:440px!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  background:#f3f4f6!important;
+  padding:6px!important;
+}
+@media(max-width:700px) {
+  .wrap > section.section-card[data-role="original-drawing"] { padding:14px!important; }
+  section.section-card[data-role="original-drawing"] > .image-grid.original-grid > a > img { height:300px!important; }
+}
+</style>
 </head><body><main class="wrap">
 <nav class="nav-pills"><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/">Sketches &amp; Drawings</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/people/index.html">&larr; People</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/search/">Search Catalogue</a></nav>
 <header class="page-header"><h1 class="page-title">Grumpy Head Sketch</h1></header>
