@@ -218,6 +218,30 @@ main.wrap > section.section-card.original > .gallery-grid > a > img {
 }
 </style>
 <link rel="icon" type="image/png" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/favicon.png">
+
+<style>
+/* RON BELIEVE BEAU LIEF SECTION WIDTH CORRECTION 20261030 */
+/* Outer holders use one consistent centered 960px maximum; image cards remain untouched. */
+main.wrap > section.section-card[data-role="original-drawing"],
+main.wrap > section.section-card[data-role="digitized"],
+main.wrap > section.section-card[data-role="literature"] {
+ box-sizing:border-box!important;
+ display:block!important;
+ width:100%!important;
+ max-width:960px!important;
+ margin-left:auto!important;
+ margin-right:auto!important;
+ padding:22px!important;
+}
+main.wrap > section.section-card[data-role="original-drawing"] > h2,
+main.wrap > section.section-card[data-role="digitized"] > h2,
+main.wrap > section.section-card[data-role="literature"] > h2 {text-align:center!important;}
+@media(max-width:620px){
+ main.wrap > section.section-card[data-role="original-drawing"],
+ main.wrap > section.section-card[data-role="digitized"],
+ main.wrap > section.section-card[data-role="literature"] {padding:14px!important;}
+}
+</style>
 </head><body><main class="wrap">
 <nav class="nav-pills"><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/">Catalogue home</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-sketches-and-drawings/Sketches/">Sketches &amp; Drawings</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-sketches-people-characters/Sketches/people-characters/character-groups-and-ensembles/index.html">&larr; Character Groups &amp; Ensembles</a><a class="nav-pill" href="https://ronenglish-archive.github.io/ron-english-catalogue-raisonne/search/">Search Catalogue</a></nav>
 <header class="page-header"><h1 class="page-title">Believe Beau Lief</h1></header>
