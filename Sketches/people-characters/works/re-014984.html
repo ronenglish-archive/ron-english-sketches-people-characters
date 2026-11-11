@@ -136,6 +136,13 @@ footer{font-size:12px;color:#6b7280;text-align:center;margin:15px auto 5px;paddi
 .metadata p{margin:5px auto;text-align:center}
 .section-card:not([data-role]) .image-grid{justify-content:center}
 @media(max-width:390px){[data-role="digitized"] .gallery-grid>a,[data-role="digitized"] .image-grid>a,[data-role="digital"] .image-grid>a{flex-basis:130px;width:130px;max-width:130px;height:165px}}
+
+/* Original Drawing only: remove image-level inner frames; preserve outer white panel. */
+section[data-role="original-drawing"] .gallery-grid > a:has(img),
+section[data-role="original-drawing"] .original-grid > a:has(img) {
+ border:0 !important; border-radius:0 !important; padding:0 !important;
+ box-shadow:none !important; overflow:visible !important;
+}
 </style>
 
 
